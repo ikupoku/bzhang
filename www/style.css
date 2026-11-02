@@ -2,18 +2,27 @@
 @font-face {
     font-family: Kosugi;
     src: url(fonts/KosugiMaru-Regular.ttf);
-    
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(fonts/Helvetica.ttf);   
+}
+
+@font-face {
+    font-family: Caslon;
+    src: url(fonts/LibreCaslonText-Regular.ttf);   
 }
 
 body {
-    font-family: Kosugi;
+    font-family: Caslon;
 }
 
 
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  padding-right: 30px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
