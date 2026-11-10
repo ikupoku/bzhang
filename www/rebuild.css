@@ -73,12 +73,20 @@ body {
 
 .logo {
     max-width:100%;
-    max-height:90%;
+    max-height:60%;
+}
+
+.glow {
+    color:#fff;
+    text-shadow:
+    0 0 14px #fff,
+    0 0 50px #fff;
 }
 
 .comingsoon {
-    font-family:'Kosugi Maru';
+    font-family:'Zen Kurenaido';
     font-size:2em;
+    letter-spacing: -0.55px;
     color:#fff;
 }
 
@@ -89,6 +97,16 @@ body {
 }
 
 @media screen and (height <= 300px) {
+    .comingsoon {
+        font-size:1em;
+    }
+}
+@media screen and (width <= 400px) {
+    .comingsoon {
+        font-size:1.5em;
+    }
+}
+@media screen and (width <= 300px) {
     .comingsoon {
         font-size:1em;
     }
